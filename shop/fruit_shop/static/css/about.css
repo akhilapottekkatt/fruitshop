@@ -1,0 +1,15 @@
+.head{
+    background-color: rgb(204, 116, 197);
+    color: black;
+    height: 25vh;
+    width: 100vw;
+}
+
+.para{
+    background-color: rgb(24, 134, 61);
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    font-family: sans-serif;
+
+}

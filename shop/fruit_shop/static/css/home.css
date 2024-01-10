@@ -1,0 +1,53 @@
+img {
+    width: 100%; /* Make images responsive within their container */
+    max-width: 100%; /* Prevent images from exceeding their original size */
+    height: auto; /* Maintain the aspect ratio when resizing */
+}
+
+
+/* Center-align images within their container */
+img {
+    margin: 0 auto; /* Center horizontally within the container */
+}
+
+/* Apply a shadow effect to images on hover */
+img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.menu {
+    list-style: none; /* Remove default list bullet points */
+   
+}
+
+.menu li {
+    display: inline; /* Display list items on the same line */
+    margin-right: 10px; /* Add space between list items (adjust as needed) */
+}
+.nav-item {
+    margin-top: 6vh;
+    padding: 2vw;
+    font-size: 1vw;
+}
+.site-content {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://images.healthshots.com/healthshots/en/uploads/2021/02/19110437/Cut-fruits-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    align-items: center;
+    text-size-adjust:unset ;
+    font-family: 'Courier New', Courier, monospace;
+  
+    
+}
+
+h1 {
+    background-color: aqua;
+    text-align: center;
+    color: rgb(77, 39, 77);
+    font-size:x-large;
+}
